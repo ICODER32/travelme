@@ -1,0 +1,45 @@
+.wishlist-card {
+  width: 90%;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.wishlist-card-header {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.wishlist-card-content {
+  padding: 10px;
+}
+
+.wishlist-card-likes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wishlist-card-suggestions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wishlist-card-reactions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wishlist-card-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-center;
+  margin-top: 10px;
+}
+
+.wishlist-card-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 10px 0;
+}

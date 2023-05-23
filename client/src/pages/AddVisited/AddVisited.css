@@ -1,0 +1,68 @@
+.add-trip-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-trip-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.add-trip-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  width: 300px;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.add-trip-form.visible {
+  opacity: 1;
+}
+
+.add-trip-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.add-trip-form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-trip-form-group input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 5px;
+}
+.add-trip-close-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}

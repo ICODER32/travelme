@@ -1,0 +1,62 @@
+.body {
+  background: black;
+  margin: auto;
+  background-image: url("https://github.com/grifficdesigns/codepen-projects/blob/main/earth-hour-landing-page/stars.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (orientation: landscape) {
+  .cover {
+    background-size: cover;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.main {
+  top: 15%;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 0px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  margin-top: 6%;
+}
+
+h2 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  margin-top: -6%;
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,85 @@
+.login-card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.login-card {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-card__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-card__logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.login-card__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-card__content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card__content label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.login-card__content input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-card__button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-card__button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.login-card__footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-card__link {
+  color: #333;
+  text-decoration: none;
+}
+
+.login-card__link:hover {
+  text-decoration: underline;
+}
